@@ -7,12 +7,12 @@ public class EvenOrOddNumber {
      Scanner input = new Scanner(System.in);
      int a = input.nextInt();
      if (a%2 ==0){
-     System.out.println("even");
+     System.out.println("Number is even");
      }else{
-       System.out.println("odd");
+       System.out.println("Number is odd");
      }
 
-     System.out.println("Number is: " + a);
+     
 
    }
 }
