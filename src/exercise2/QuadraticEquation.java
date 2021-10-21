@@ -18,8 +18,9 @@ public class QuadraticEquation{
         x1 = (b*-1 + Math.sqrt(D)) / (2*a);
         x2 = (b*(-1) - Math.sqrt(D)) / (2*a);
         System.out.print(x1);
+        System.out.print(", ");
         System.out.print(x2);
-      }else{
+         }else{
         System.out.println("Imaginary values");
       }
     }else{
