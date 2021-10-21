@@ -11,9 +11,8 @@ public class EvenOrOddNumber {
      }else{
        System.out.println("odd");
      }
-<<<<<<< HEAD
+
      System.out.println("Number is: " + a);
-=======
->>>>>>> 0847d5f8c3b4bacc78fae9ab893ff2701ee3bd68
+
    }
 }
