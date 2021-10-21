@@ -26,7 +26,7 @@ public static void main(String[] args){
     case 7 :
     System.out.println("Day of week: Sunday");
     default:
-    System.out.println("Invalid day");
+    System.out.println("Day of week: Invalid day");
 
     
   }

@@ -5,9 +5,10 @@ public class SumOfDigits {
    public static void main(String[] args){
      
      Scanner input = new Scanner(System.in);
-     int a = input.nextInt();
-     int b = input.nextInt();
-     int c = input.nextInt();
+     int number = input.nextInt();
+     int a = number % 10;
+     int b = ((number/10) % 10);
+     int c = ((number/10) / 10);
      int sum = a + b + c;
      System.out.println("Sum of digits: "+ sum);
 
